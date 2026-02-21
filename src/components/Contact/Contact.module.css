@@ -1,0 +1,58 @@
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 18px 20px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.name,
+.number {
+    margin: 8px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    color: #4b5563;
+    font-size: 18px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.number {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.deleteBtn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #ef4444;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.deleteBtn:hover {
+    background: #dc2626;
+}
